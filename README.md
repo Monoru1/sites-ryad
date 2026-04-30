@@ -1,20 +1,21 @@
-# Léna Marchetti — Demo premium
+# Latinum Quest
 
-Landing page premium construite avec Next.js, TypeScript, Tailwind CSS et GSAP.
+Application Next.js interactive de révision du latin (4e humanité littéraire).
 
-## Lancer en local
+## Démarrer
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
+## Build production
 
 ```bash
 npm run build
+npm run start
 ```
 
-## Netlify
+## Déploiement Netlify
 
-Le projet est prêt pour Netlify avec `@netlify/plugin-nextjs` via `netlify.toml`.
+Le projet inclut `netlify.toml` pour un déploiement Next.js.
